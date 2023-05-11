@@ -1,0 +1,856 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Meddox</title>
+
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+
+  <link rel="stylesheet" href="assets/css/fonts.css">
+
+  <link rel="stylesheet" href="assets/css/all.min.css">
+
+  <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-white py-3 sticky-top">
+    <div class="container">
+      <img src="assets/img/Logo-dark-1.png" width="180px">
+
+      <button class="navbar-toggler text-white" type="button" data-bs-toggle="offcanvas" data-bs-target="#jeel">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-blue" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown">
+              Home
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-blue" href="#">Home 1</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Home 2</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Home 3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-blue" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown">
+              About Us
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-blue" href="#">About Us 1</a></li>
+              <li><a class="dropdown-item text-blue" href="#">About Us 2</a></li>
+              <li><a class="dropdown-item text-blue" href="#">About Us 3</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Doctors 1</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Doctors 2</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Doctor Details</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Testimonial 1</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Testimonial 2</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Testimonial 3</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-blue" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown">
+              Department
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-blue" href="#">Department 1</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Department 2</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Department 3</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Department Details</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-blue" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown">
+              Page
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-blue" href="#">Doctors Timetable</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Appointment 1</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Appointment 2</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Gallery 1</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Gallery 2</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Gallery 3</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Gallery Details</a></li>
+              <li><a class="dropdown-item text-blue" href="#">careers</a></li>
+              <li><a class="dropdown-item text-blue" href="#">FAQs</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Sponsors</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Shop</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Error Page</a></li>
+            </ul>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle text-blue" href="#" id="navbarDropdown" role="button"
+              data-bs-toggle="dropdown">
+              Blog
+            </a>
+            <ul class="dropdown-menu">
+              <li><a class="dropdown-item text-blue" href="#">Blog Grid</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Blog Grid sidebar</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Blog Standard</a></li>
+              <li><a class="dropdown-item text-blue" href="#">Single Blog</a></li>
+            </ul>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link text-blue" href="#">Contact</a>
+          </li>
+        </ul>
+        <div class="contact row justify-content-between align-items-center">
+          <div class="col-2 text-center">
+            <i class="fa-solid fa-magnifying-glass text-blue fs-5"></i>
+          </div>
+          <div class="col-8 text-center">
+            <a href="#"><i class="fa-solid fa-phone-volume text-blue fs-4 px-2"></i></a>
+            <a href="#" class="text-blue text-decoration-none fs-5">008860 9830</a>
+          </div>
+          <div class="col-2 text-center">
+            <i class="fa-solid fa-list-ul text-blue fs-4"></i>
+          </div>
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <div class="offcanvas offcanvas-start" tabindex="-1" id="jeel" aria-labelledby="offcanvasExampleLabel">
+    <div class="offcanvas-header">
+      <h5 class="offcanvas-title" id="offcanvasExampleLabel">
+        <img src="assets/img/Logo-dark-1.png" width="180px">
+      </h5>
+      <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+      <ul class="navbar-nav mx-auto mb-2 mb-lg-0">
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-blue" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown">
+            Home
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item text-blue" href="#">Home 1</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Home 2</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Home 3</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-blue" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown">
+            About Us
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item text-blue" href="#">About Us 1</a></li>
+            <li><a class="dropdown-item text-blue" href="#">About Us 2</a></li>
+            <li><a class="dropdown-item text-blue" href="#">About Us 3</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Doctors 1</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Doctors 2</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Doctor Details</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Testimonial 1</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Testimonial 2</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Testimonial 3</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-blue" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown">
+            Department
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item text-blue" href="#">Department 1</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Department 2</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Department 3</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Department Details</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-blue" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown">
+            Page
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item text-blue" href="#">Doctors Timetable</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Appointment 1</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Appointment 2</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Gallery 1</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Gallery 2</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Gallery 3</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Gallery Details</a></li>
+            <li><a class="dropdown-item text-blue" href="#">careers</a></li>
+            <li><a class="dropdown-item text-blue" href="#">FAQs</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Sponsors</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Shop</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Error Page</a></li>
+          </ul>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle text-blue" href="#" id="navbarDropdown" role="button"
+            data-bs-toggle="dropdown">
+            Blog
+          </a>
+          <ul class="dropdown-menu">
+            <li><a class="dropdown-item text-blue" href="#">Blog Grid</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Blog Grid sidebar</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Blog Standard</a></li>
+            <li><a class="dropdown-item text-blue" href="#">Single Blog</a></li>
+          </ul>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link text-blue" href="#">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+
+  <section>
+    <div class="header">
+      <div class="container">
+        <div class="row padding px-5">
+          <h1 class="text-dblue">Best Doctor & <br>Medical Care</h1>
+          <p class="text-dblue py-4">MedDoctors Are A Medical And Health Department Provider Institutions. Suitable
+            <br>For Healthcare, Medical, Doctor, Dental, Dentist, Pharmacy, Health And Any Related <br>Medical Care
+            Field.
+          </p>
+          <div class="button row">
+            <button class="btn bg-info mx-3">
+              <a href="#" class="text-white text-decoration-none text-center">Find a Doctor</a>
+            </button>
+            <button class="btn bg-blue mx-3">
+              <a href="#" class="text-white text-decoration-none text-center">Discover More</a>
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="service">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-4">
+          <div class="box bg-blue row py-5 px-3">
+            <div class="col-2">
+              <i class="fa-solid fa-helicopter text-white fs-1 py-2"></i>
+            </div>
+            <div class="col-10">
+              <h3 class="text-white fs-4">Emergency Helicopter</h3>
+              <p class="text-white py-2">Air medical services is a comprehensive term covering the use of air
+                transportation, aeroplane or helicopter</p>
+              <a href="#"><i class="fa-solid fa-phone-volume text-white fs-4"></i></a>
+              <a href="#" class="text-white text-decoration-none fs-5 px-2">008860 9830</a>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-4">
+          <div class="box bg-purpule row py-5 px-3">
+            <div class="col-2">
+              <i class="fa-regular fa-folder-closed text-white fs-1 py-2"></i>
+            </div>
+            <div class="col-10">
+              <h3 class="text-white fs-4">Emergency Helicopter</h3>
+              <p class="text-white py-2">Air medical services is a comprehensive term covering the use of air
+                transportation, aeroplane or helicopter</p>
+              <button type="button" class="btn btn-outline-light" style="height: 40px;">
+                Make Appoinment
+              </button>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-4">
+          <div class="box bg-info row py-5 px-3">
+            <div class="col-2">
+              <i class="fa-solid fa-file-lines text-white fs-1 py-2"></i>
+            </div>
+            <div class="col-10">
+              <h3 class="text-white fs-4">Emergency Helicopter</h3>
+              <p class="text-white py-2">Air medical services is a comprehensive term covering the use of air
+                transportation, aeroplane or helicopter</p>
+              <button type="button" class="btn btn-outline-light" style="height: 40px;">
+                Discover Timetable
+              </button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slider">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-6 col-xl-6" style="padding: 110px;">
+          <div class="image position-relative">
+            <img src="assets/img/01_about.jpg" alt="">
+          </div>
+          <div class="box1 bg-sky text-center py-5 position-absolute">
+            <i class="fa-solid fa-file-lines text-white fs-1"></i>
+            <h2 class="text-white py-3">45</h2>
+            <h3 class="text-white">Years of experience</h3>
+          </div>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6 col-xl-6" style="padding: 110px 0 0 0;">
+          <div class="experience">
+            <h2 class="text-sky fs-5">Welcome To Best Medical & Health Care</h2>
+            <h1 class="text-blue py-3">Get Best & Amazing Experice With Our Professional Doctors</h1>
+            <p class="text-dblue">Meddox Are A Medical And Health Department Provider Institutions. Suitable <br> For
+              Healthcare, Medical, Doctor, Dental, Dentist, Pharmacy, Health And Any <br>Related Medical Care Field.</p>
+            <div class="list row">
+              <div class="col-6">
+                <ul class="icon list-unstyled">
+                  <li class="py-2">
+                    <i class="fa-solid fa-check-double"></i><span class="text-gray px-3">Professional Doctors</span>
+                  </li>
+                  <li class="py-2">
+                    <i class="fa-solid fa-check-double"></i><span class="text-gray px-3">Online Schedule</span>
+                  </li>
+                  <li class="py-2">
+                    <i class="fa-solid fa-check-double"></i><span class="text-gray px-3">High Packages</span>
+                  </li>
+                  <li class="py-2">
+                    <i class="fa-solid fa-check-double"></i><span class="text-gray px-3">And More...</span>
+                  </li>
+                </ul>
+                <div class="sign">
+                  <img src="assets/img/signature.png" style="width: 170px;">
+                </div>
+              </div>
+              <div class="col-6">
+                <ul class="icon list-unstyled">
+                  <li class="py-2">
+                    <i class="fa-solid fa-check-double"></i><span class="text-gray px-3">Digital Laboratory</span>
+                  </li>
+                  <li class="py-2">
+                    <i class="fa-solid fa-check-double"></i><span class="text-gray px-3">Leading Technology</span>
+                  </li>
+                  <li class="py-2">
+                    <i class="fa-solid fa-check-double"></i><span class="text-gray px-3">24/7 Online Support</span>
+                  </li>
+                  <div class="photo row pt-5">
+                    <div class="col-3">
+                      <img src="assets/img/01_about-man.jpg">
+                    </div>
+                    <div class="col-9 pe-5">
+                      <span class="text-blue fs-5">Dr Anwar Ramadan</span>
+                      <span class="text-gray">Executive Director</span>
+                    </div>
+                  </div>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slider1">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 pt-5">
+          <span class="text-sky">Best Department!</span>
+          <h2 class="text-white fs-1 py-3">Different Types Of <br>Departments</h2>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 pt-5">
+          <p class="text-white">Meddox Are A Medical And Health Department Provider Institutions. Suitable For
+            Healthcare, Medical, Doctor, Dental, Dentist, Pharmacy, Health And Any Related Medical Care Field.</p>
+          <button class="btn bg-white mt-2">
+            <a href="#" class="text-sky text-decoration-none text-center">View All Department</a>
+          </button>
+        </div>
+      </div>
+      <div class="row mt">
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+          <div class="box bg-white row py-5 px-3">
+            <div class="col-2">
+              <img src="assets/img/biopsy.png" alt="">
+            </div>
+            <div class="col-10">
+              <h3 class="text-blue">Gastroenterology</h3>
+              <p class="text-gray py-2">Gastroenterology is a specialty of internal medicine specializing in the
+                treatment of diseases...</p>
+              <a href="#" class="text-gray text-decoration-none">Discover More</a>
+            </div>
+          </div>
+          <img src="assets/img/gastroenterology-370x250.jpg" width="100%">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+          <div class="box bg-white row py-5 px-3">
+            <div class="col-2">
+              <img src="assets/img/tooth (1).png" alt="">
+            </div>
+            <div class="col-10">
+              <h3 class="text-blue">Dental Care</h3>
+              <p class="text-gray py-2">Radiology is a branch of medicine that uses imaging technology to diagnose
+                and...</p>
+              <a href="#" class="text-gray text-decoration-none">Discover More</a>
+            </div>
+          </div>
+          <img src="assets/img/radiology-370x250.jpg" width="100%" alt="">
+        </div>
+        <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+          <div class="box bg-white row py-5 px-3">
+            <div class="col-2">
+              <img src="assets/img/orthopedic.png" alt="">
+            </div>
+            <div class="col-10">
+              <h3 class="text-blue">Orthopedic</h3>
+              <p class="text-gray py-2">Hematology is the branch of medicine concerned with the study, diagnosis,
+                treatment, and...</p>
+              <a href="#" class="text-gray text-decoration-none">Discover More</a>
+            </div>
+          </div>
+          <img src="assets/img/hemathology-370x250.jpg" width="100%" alt="">
+        </div>
+      </div>
+    </div>
+    </div>
+  </section>
+
+  <section class="slider2 mt1">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 px-5 mb-5">
+          <span class="text-sky fs-5">Meet Our Team</span>
+          <h3 class="text-dblue fs-1">Group Of Certified & Experienced Doctors</h3>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 px-5 mb-5">
+          <p class="text-gray">Meddox Are A Medical And Health Department Provider Institutions. Suitable For
+            Healthcare, Medical, Doctor, Dental, Dentist, Pharmacy, Health And Any Related Medical Care Field.</p>
+          <button class="btn bg-info my-3">
+            <a href="#" class="text-white text-decoration-none text-center">View All Doctor</a>
+          </button>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+          <img src="assets/img/01_doctors.jpg" width="100%">
+          <h2 class="text-dblue fs-4 pt-4">Dr Anwar Ramadan</h2>
+          <h5 class="text-sky fs-5 py-2">Surgeon, Proctologist</h5>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+          <img src="assets/img/02_doctors.jpg" width="100%">
+          <h2 class="text-dblue fs-4 pt-4"> Dr Mohamed Ramadan </h2>
+          <h5 class="text-sky fs-5 py-2">Internist, Orthopedic Surgeon</h5>
+        </div>
+        <div class="col-12 col-md-4 col-lg-4 col-xl-4 text-center">
+          <img src="assets/img/03_doctors.jpg" width="100%">
+          <h2 class="text-dblue fs-4 pt-4"> Dr Omnia Ramadan</h2>
+          <h5 class="text-sky fs-5 py-2">Emergency Physician</h5>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slider3">
+    <div class="container position-relative">
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-6 col-xl-6 px-5 my-5">
+          <span class="text-white fs-5">Medical Quality Care</span>
+          <h3 class="text-white fs-1">Complete Health Care Solutions For Everyone</h3>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6 col-xl-6 px-5 my-5">
+          <p class="text-white">Meddox Are A Medical And Health Department Provider Institutions. Suitable For
+            Healthcare, Medical, Doctor, Dental, Dentist, Pharmacy, Health And Any Related Medical Care Field.</p>
+          <button class="btn bg-white my-3 view">
+            <a href="#" class="text-sky text-decoration-none text-center">Book An Appointment</a>
+          </button>
+        </div>
+      </div>
+      <div class="experince">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+            <div class="box2 bg-white row py-5 px-3">
+              <div class="col-2">
+                <img src="assets/img/doctor.png" width="35px">
+              </div>
+              <div class="col-10">
+                <h3 class="text-blue fs-3">Experience Doctors</h3>
+                <p class="text-gray py-2">Doctors' experiences and their perception of the most stressful aspects</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+            <div class="box2 bg-white row py-5 px-3">
+              <div class="col-2">
+                <img src="assets/img/experience.png" width="35px">
+              </div>
+              <div class="col-10">
+                <h3 class="text-blue fs-3">+45 Years Experience</h3>
+                <p class="text-gray py-2">The eyes cannot see, what the mind doesn't know.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+            <div class="box2 bg-white row py-5 px-3">
+              <div class="col-2">
+                <img src="assets/img/plus.png" width="35px">
+              </div>
+              <div class="col-10">
+                <h3 class="text-blue fs-3">Standards Of Treatments</h3>
+                <p class="text-gray py-2">
+                  Standards Of Treatments
+                  The standard of treatment is a rule of customary law.</p>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-6 col-xl-3">
+            <div class="box2 bg-white row py-5 px-3">
+              <div class="col-2">
+                <img src="assets/img/medicine.png" width="35px">
+              </div>
+              <div class="col-10">
+                <h3 class="text-blue fs-3">The Best Department</h3>
+                <p class="text-gray py-2">Powerful application of information technology in health.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div class="form mt-5 position-absolute">
+        <div class="row">
+          <div class="col-12 col-md-12 col-lg-12 col-xl-6 bg-white py-5 px-4">
+            <h3 class="text-dblue">Make An Appointment</h3>
+            <form>
+              <div class="row">
+                <div class="col-12 col-md-12 col-lg-6 py-3">
+                  <p class="title-input">Name*</p>
+                  <input type="text" placeholder="Name">
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 py-3">
+                  <p class="title-input">Email*</p>
+                  <input type="email" placeholder="email">
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 py-3">
+                  <p class="title-input">Phone*</p>
+                  <input type="tel" placeholder="phone">
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 py-3">
+                  <p class="title-input">Doctors*</p>
+                  <input type="text" placeholder="Dr anwar ramadan">
+                </div>
+                <div class="col-12 col-md-12 col-lg-12 py-3">
+                  <p class="title-input">Departments*</p>
+                  <input type="text" placeholder="Departments">
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 py-3">
+                  <p class="title-input">Select Date*</p>
+                  <input type="date">
+                </div>
+                <div class="col-12 col-md-12 col-lg-6 py-3">
+                  <p class="title-input">Select Time*</p>
+                  <input type="time" placeholder="7 : 00">
+                </div>
+                <div class="col-12 py-3">
+                  <button class="btn bg-info my-3 view">
+                    <a href="#" class="text-white text-decoration-none text-center">Book An Appointment</a>
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+          <div class="col-12 col-md-12 col-lg-12 col-xl-6">
+            <img src="assets/img/01_presentation.jpg" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slider4 mt1">
+     <div class="container">
+      <div class="row justify-content-center">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-3 row">
+          <div class="col-4">
+            <img src="assets/img/doctor 1.png" width="50px">
+          </div>
+          <div class="col-8">
+            <h3 class="text-blue">233</h3>
+            <span class="text-dblue">Expert Doctors</span>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-3 row">
+          <div class="col-4">
+            <img src="assets/img/rhinology.png" width="50px">
+          </div>
+          <div class="col-8">
+            <h3 class="text-blue">2005</h3>
+            <span class="text-dblue">Happy Patients</span>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-3 row">
+          <div class="col-4">
+            <img src="assets/img/medicine 1.png" width="50px">
+          </div>
+          <div class="col-8">
+            <h3 class="text-blue">530</h3>
+            <span class="text-dblue">Health Departments</span>
+          </div>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-3 row">
+          <div class="col-4">
+            <img src="assets/img/stethoscope.png" width="50px">
+          </div>
+          <div class="col-8">
+            <h3 class="text-blue">4456</h3>
+            <span class="text-dblue">Total Branches</span>
+          </div>
+        </div>
+      </div>
+     </div>
+  </section>
+
+  <section class="slider5">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-12 col-lg-6 col-xl-6 px-5 mb-5">
+          <span class="text-sky fs-5">Feature's Gallery</span>
+          <h3 class="text-dblue fs-1">All Our Latest Case Study</h3>
+        </div>
+        <div class="col-12 col-md-12 col-lg-6 col-xl-6 px-5 mb-5">
+          <p class="text-gray">Meddox Are A Medical And Health Department Provider Institutions. Suitable For Healthcare, Medical, Doctor, Dental, Dentist, Pharmacy, Health And Any Related Medical Care Field.</p>
+          <button class="btn bg-info my-3">
+            <a href="#" class="text-white text-decoration-none text-center">View All Gallery</a>
+          </button>
+        </div>
+      </div>
+      <div class="images">
+        <div class="row">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+            <img src="assets/img/06_gallery-1-370x336.jpg" width="100%" alt="">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+            <img src="assets/img/05_gallery-1-370x336.jpg" width="100%" alt="">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+            <img src="assets/img/04_gallery-1-370x336.jpg" width="100%" alt="">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4 mt-4">
+            <img src="assets/img/03_gallery-1-370x336.jpg" width="100%" alt="">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4 mt-4">
+            <img src="assets/img/02_gallery-1-370x336.jpg" width="100%" alt="">
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4 mt-4">
+            <img src="assets/img/01_gallery-1-370x336.jpg" width="100%" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slider6 my-5">
+    <div class="row">
+      <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+        <img src="assets/img/01_testimonial-say-1.jpg" width="100%" alt="">
+      </div>
+      <div class="col-12 col-md-6 col-lg-6 col-xl-6 px-5">
+        <img src="assets/img/left-quote.png" width="60px" alt="">
+        <h1 class="text-white py-5">I want to thank everyone at this facility for the quality of care and compassion they showed during my stay. The staff supported me during my treatment.</h1>
+        <h3 class="text-white fs-4">Anwar Ramadan</h3>
+        <span class="text-white">cardiology</span>
+      </div>
+    </div>
+  </section>
+
+  <section class="slider7">
+    <div class="container">
+      <div class="row">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 px-5 mb-5">
+          <span class="text-sky fs-5">Recent News</span>
+          <h3 class="text-dblue fs-1">Read All News</h3>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6 px-5 mb-5">
+          <p class="text-gray">Meddox Are A Medical And Health Department Provider Institutions. Suitable For Healthcare, Medical, Doctor, Dental, Dentist, Pharmacy, Health And Any Related Medical Care Field.</p>
+          <button class="btn bg-info my-3">
+            <a href="#" class="text-white text-decoration-none text-center">View All Blog</a>
+          </button>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slider8 mb-5">
+    <div class="container">
+      <div class="row">
+        <div class="card-group">
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+            <div class="card">
+              <img src="assets/img/blog1-1-370x250.jpg" class="card-img-top" alt="...">
+              <div class="card-body py-4">
+                <span class="text-sky">July 22, 2022</span>
+                <a href="#" class="text-dblue text-decoration-none px-4">No Comments</a>
+                <p class="text-dblue fs-4 py-2">Spinning Up Multiple WordPress Sites Locally With DevKinsta</p>
+                <p class="card-text"><small class="text-muted"> A single treatment giving life-long protection from severe allergies such as asthma could be made possible by immunology...</small></p>
+                <span class="text-muted">Discover More</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+            <div class="card">
+              <img src="assets/img/blog2-370x250.jpg" class="card-img-top" alt="...">
+              <div class="card-body py-4">
+                <span class="text-sky">July 22, 2022</span>
+                <a href="#" class="text-dblue text-decoration-none px-4">No Comments</a>
+                <p class="text-dblue fs-4 py-2">Hormone Therapy the Menopause Transition</p>
+                <p class="card-text"><small class="text-muted">Hormonal therapy in menopausal transition: implications for improvement of health-related quality of life. A total of 513 mid-aged...</small>
+                </p>
+                <span class="text-muted">Discover More</span>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-6 col-lg-4 col-xl-4">
+            <div class="card">
+              <img src="assets/img/blog3-370x250.jpg" class="card-img-top" alt="...">
+              <div class="card-body py-4">
+                <span class="text-sky">July 22, 2022</span>
+                <a href="#" class="text-dblue text-decoration-none px-4">No Comments</a>
+                <p class="text-dblue fs-4 py-2">Diabetes & blood pressure consultation for patients</p>
+                <p class="card-text"><small class="text-muted">Interventions targeting hypertension and diabetes mellitus at community and primary healthcare level in low- and middle-income countries:a scoping...</small></p>
+                <span class="text-muted">Discover More</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="slider9 bg-blue">
+    <div class="container">
+      <div class="row pt-5">
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+          <h3 class="text-white fs-4 ps-4">Subscribe To Our Newsletter</h3>
+        </div>
+        <div class="col-12 col-md-6 col-lg-6 col-xl-6">
+          <div class="input-group mb-3">
+            <input type="text" class="form-control" placeholder="Your Email Address...">
+            <span class="input-group-text bg-sky text-white" id="basic-addon2">Subscribe</span>
+          </div>
+        </div>
+        <div class="footer row pt-5">
+          <div class="col-12 col-md-4 pt-3 px-5">
+            <div class="logo">
+              <img src="assets/img/Logo.png" alt="" width="180">
+              <p class="text-white py-4">Meddox Are A Medical And Health Department Provider Institutions. Suitable For Healthcare, Medical, Doctor, Dental, Dentist, Pharmacy, Health And Any Related Medical Care Field.</p>
+              <div class="icon py-2 ps-3 row">
+                <div class="social-icon bg-white rounded-2 me-3">
+                  <i class="fa-brands fa-facebook-f text-sky"></i>
+                </div>
+                <div class="social-icon bg-white rounded-2 me-3">
+                  <i class="fa-brands fa-twitter text-sky"></i>
+                </div>
+                <div class="social-icon bg-white rounded-2 me-3">
+                  <i class="fa-brands fa-instagram text-sky"></i>
+                </div>
+                <div class="social-icon bg-white rounded-2 me-3">
+                  <i class="fa-brands fa-youtube text-sky"></i>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-12 col-md-2 pt-3">
+            <h4 class="text-white ps-4">Quick Links</h4>
+            <ul>
+              <li class="text-white list-unstyled py-2 text-white">
+                About Us
+              </li>
+              <li class="text-white list-unstyled py-2 text-white">
+                Services
+              </li>
+              <li class="text-white list-unstyled py-2 text-white">
+                Pricing
+              </li>
+              <li class="text-white list-unstyled py-2 text-white">
+                Blog
+              </li>
+              <li class="text-white list-unstyled py-2 text-white">
+                Contact
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-2 pt-3">
+            <h4 class="text-white ps-4">Useful Links</h4>
+            <ul>
+              <li class="text-white list-unstyled py-2 text-white">
+                Privacy Policy
+              </li>
+              <li class="text-white list-unstyled py-2 text-white">
+                Terms & Conditions
+              </li>
+              <li class="text-white list-unstyled py-2 text-white">
+                Disclaimer
+              </li>
+              <li class="text-white list-unstyled py-2 text-white">
+                Support
+              </li>
+              <li class="text-white list-unstyled py-2 text-white">
+                FAQ
+              </li>
+            </ul>
+          </div>
+          <div class="col-12 col-md-4 col-lg- pt-3">
+            <h5 class="text-white ps-2">Open – Closed Time</h5>
+            <ul>
+              <li class="list-unstyled py-2">
+                <span class="text-white pe-3">Monday</span>
+                <span class="text-white">8.00-21.00</span>
+              </li>
+              <li class="list-unstyled py-2">
+                <span class="text-white pe-3">Tuesday</span>
+                <span class="text-white">8.00-21.00</span>
+              </li>
+              <li class="list-unstyled py-2">
+                <span class="text-white">Wednesday</span>
+                <span class="text-white">8.00-21.00</span>
+              </li>
+              <li class="list-unstyled py-2">
+                <span class="text-white pe-3">Thursday</span>
+                <span class="text-white">8.00-21.00</span>
+              </li>
+              <li class="list-unstyled py-2">
+                <span class="text-white pe-4">Friday</span>
+                <span class="text-white ">8.00-21.00</span>
+              </li>
+              <li class="list-unstyled py-2">
+                <span class="text-white pe-3">Saturday</span>
+                <span class="text-white">8.00-21.00</span>
+              </li>
+              <li class="list-unstyled py-2">
+                <span class="text-white pe-4">Sunday</span>
+                <span class="text-white">8.00-21.00</span>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer class="bg-purpule">
+    <div class="container">
+      <div class="d-flex justify-content-between flex-column flex-md-row text-center">
+        <h6 class="text-white py-4">@ 2023 Meddox. With Love by <span class="text-sky">BravisThemes</span></h6>
+        <h6 class="text-white py-4">Terms & ConditionsPrivacy PolicySitemap</h6>
+      </div>
+    </div>
+  </footer>
+
+
+
+
+
+
+
+
+  <script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/bootstrap.min.js"></script>
+
+
+</body>
+
+</html>

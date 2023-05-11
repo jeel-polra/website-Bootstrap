@@ -1,0 +1,123 @@
+.text-blue{
+    color: #053485;
+}
+.text-dblue{
+    color: #1a3d7d;
+}
+.bg-blue{
+    background-color: #053485;
+}
+.bg-purpule{
+    background-color: #194f90;
+}
+.bg-sky{
+    background-color: #28b6f6;
+}
+.text-sky{
+    color: #28b6f6;
+}
+.padding{
+    padding: 200px 0;
+}
+.text-gray{
+    color: #6c757d;
+}
+.header{
+    background-image: url('../img/02_header.jpg');
+    width: 100%;
+    height: 800px;
+    background-size: cover;
+    background-color: rgba(255, 255, 255, 0.322);
+    background-blend-mode: lighten;
+}
+.header h1{
+    font-size: 72px;
+}
+.btn{
+    width: 180px;
+    height: 55px;
+}
+.box{
+    width: 100%;
+    height: 260px;
+}
+.service{
+    margin-top: -40px;
+    margin-bottom: 20px;
+}
+.slider img{
+    width: 100%;
+}
+.box1{
+    width: 200px;
+    height: 280px;
+    margin-top: -540px;
+    right: 830px;
+}
+.photo img{
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+.slider1{
+    background-image: url('../img/01_departments.jpg');
+    width: 100%;
+    height: 548px;
+    background-size: cover;
+    background-color: #1a3d7dd7;
+    background-blend-mode: darken;
+}
+.box img{
+    width: 45px;
+}
+.mt{
+    margin: 80px 0 0 0;
+}
+.mt1{
+    margin: 400px 0 100px 0;
+}
+.slider3{
+    background-image: url('../img/01_provide.jpg');
+    width: 100%;
+    height: 950px;
+    background-size: cover;
+    background-color: #13ade5;
+    background-blend-mode: soft-light;
+}
+.view{
+    width: 200px;
+}
+.box2{
+    width: 100%;
+    height: 250px;
+}
+input{
+    width: 100%;
+    height: 50px;
+}
+.form img{
+    width: 100%;
+}
+.slider6{
+    background-image: url('../img/01_testimonial.jpg');
+    width: 99%;
+    height: 650px;
+    background-size: cover;
+    background-color: #1a3d7dd7;
+    background-blend-mode: darken;
+    margin: 100px 0 0 0;
+    padding: 55px 0;
+}
+.slider9{
+    width: 100%;
+    height: 522px;
+}
+.social-icon{
+	width: 40px;
+	height: 40px;
+	text-align: center;
+    line-height: 40px;
+}
+footer{
+    width: 100%;
+}
